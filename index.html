@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keke Funcional Cacao | Golden Monk</title>
+    <title>Keke Cacao Protein | Golden Monk</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body { margin: 0; padding: 0; background-color: #FDFCFB; font-family: 'Inter', sans-serif; color: #3A2E25; }
@@ -17,9 +17,13 @@
         .badge { font-size: 10px; font-weight: 700; color: #4E342E; text-align: center; flex: 1; }
         .badge span { display: block; font-size: 20px; margin-bottom: 5px; }
 
-        .promises { background-color: #F9F6F2; padding: 18px; border-radius: 12px; margin-bottom: 25px; }
+        .promises { background-color: #F9F6F2; padding: 18px; border-radius: 12px; margin-bottom: 20px; }
         .promise-item { display: flex; align-items: center; margin-bottom: 8px; font-size: 13px; font-weight: 500; }
         .promise-item::before { content: "✓"; color: #2D5A27; font-weight: bold; margin-right: 10px; }
+
+        .ingredients-box { margin-bottom: 25px; padding: 0 5px; }
+        .ingredients-box h4 { font-size: 14px; text-transform: uppercase; margin-bottom: 8px; color: #3E2723; border-bottom: 1px solid #F0EAE5; padding-bottom: 4px; }
+        .ingredients-box p { font-size: 12.5px; line-height: 1.5; color: #5D4037; margin: 0; }
 
         .nutrition-card { border: 2px solid #3A2E25; padding: 15px; margin-bottom: 20px; }
         .nutrition-card h3 { margin: 0; font-size: 18px; border-bottom: 4px solid #3A2E25; padding-bottom: 5px; text-transform: uppercase; }
@@ -27,9 +31,9 @@
         .nutri-row.bold { font-weight: 700; border-bottom-width: 2px; border-bottom-color: #3A2E25; }
         .nutri-row.highlight { background-color: #FFFDE7; border: 1px solid #FBC02D; padding: 6px 5px; }
 
-        .info-box { background-color: #F1F8E9; border: 1px dashed #689F38; padding: 15px; border-radius: 8px; display: flex; align-items: center; margin-bottom: 25px; }
-        .info-box span { font-size: 30px; margin-right: 15px; }
-        .info-box p { margin: 0; font-size: 13px; line-height: 1.4; color: #33691E; }
+        .apple-box { background-color: #F1F8E9; border: 1px dashed #689F38; padding: 15px; border-radius: 8px; display: flex; align-items: center; margin-bottom: 25px; }
+        .apple-box span { font-size: 30px; margin-right: 15px; }
+        .apple-box p { margin: 0; font-size: 13px; line-height: 1.4; color: #33691E; }
 
         .whatsapp-btn { display: block; background-color: #25D366; color: #ffffff; text-align: center; padding: 16px; border-radius: 8px; text-decoration: none; font-weight: 600; }
         .footer-text { text-align: center; font-size: 11px; color: #8D6E63; margin-top: 25px; line-height: 1.5; }
@@ -39,46 +43,51 @@
 
 <div class="container">
     <div class="brand">Golden Monk</div>
-    <h1>Cacao & Protein</h1>
-    <div class="weight">Keke Funcional Cacao · Aprox. 600g</div>
+    <h1>Cacao & Avena</h1>
+    <div class="weight">Keke Artesanal Funcional · Aprox. 600g</div>
 
     <div class="badge-container">
-        <div class="badge"><span>💪</span>7g PROT.</div>
+        <div class="badge"><span>💪</span>6.5g PROT.</div>
         <div class="badge"><span>🌾</span>SIN TRIGO</div>
         <div class="badge" style="color: #D32F2F;"><span>🍭</span>0% AZÚCAR</div>
         <div class="badge"><span>🍫</span>CACAO NAT.</div>
     </div>
 
     <div class="promises">
-        <div class="promise-item">Duo de avena integral y suave</div>
-        <div class="promise-item">Endulzado 100% con Alulosa</div>
+        <div class="promise-item">Textura firme y compacta (100% Avena)</div>
+        <div class="promise-item">Endulzado 100% con Alulosa Premium</div>
         <div class="promise-item">Grasas Saludables (Aceite de Oliva)</div>
-        <div class="promise-item">Potenciado con Proteína Whey</div>
+        <div class="promise-item">Sin lácteos (con Leche de Soya)</div>
+    </div>
+
+    <div class="ingredients-box">
+        <h4>Ingredientes Reales</h4>
+        <p>Harina de avena, Huevos, leche de soya, alulosa, aceite de oliva, cacao orgánico (no alcalinizado).</p>
     </div>
 
     <div class="nutrition-card">
         <h3>Datos Nutricionales</h3>
         <div style="font-size: 11px; margin-bottom: 8px; color: #616161;">Valores por porción: 1 tajada (60g aprox.)</div>
-        <div class="nutri-row bold"><span>Calorías</span><span>124 kcal</span></div>
-        <div class="nutri-row"><span>Grasa Total (Oliva)</span><span>3.2g</span></div>
+        <div class="nutri-row bold"><span>Calorías</span><span>155 kcal</span></div>
+        <div class="nutri-row"><span>Grasa Saludables (Oliva/Huevo)</span><span>6.5g</span></div>
         <div class="nutri-row"><span>Colesterol</span><span>35mg</span></div>
-        <div class="nutri-row bold"><span>Carbohidratos Netos</span><span>14g</span></div>
-        <div class="nutri-row" style="padding-left: 12px; font-size: 12px;"><span>Fibra (Avena)</span><span>3.5g</span></div>
+        <div class="nutri-row bold"><span>Carbohidratos Netos</span><span>18g</span></div>
+        <div class="nutri-row" style="padding-left: 12px; font-size: 12px;"><span>Fibra (Avena)</span><span>2.5g</span></div>
         <div class="nutri-row highlight" style="padding-left: 12px; font-size: 12px;"><span>Azúcares</span><span>0g</span></div>
-        <div class="nutri-row bold" style="background-color: #FDF8F3; border-bottom: none;"><span>Proteína</span><span>7g</span></div>
+        <div class="nutri-row bold" style="background-color: #FDF8F3; border-bottom: none;"><span>Proteína</span><span>6.5g</span></div>
     </div>
 
-    <div class="info-box">
+    <div class="apple-box">
         <span>🥚</span>
-        <p><strong>Dato Golden Monk:</strong> Una tajada te aporta <strong>las mismas proteínas que un huevo grande</strong>. Energía real sin picos de azúcar.</p>
+        <p><strong>Dato Golden Monk:</strong> Una tajada te aporta <strong>la misma proteína que un huevo grande</strong>. Energía real sin picos de azúcar ni pesadez.</p>
     </div>
 
-    <a href="https://wa.me/51913642644?text=Hola%20Golden%20Monk,%20quiero%20hacer%20un%20pedido%20de%20Keke%20de%20Cacao%20Protein" class="whatsapp-btn">
+    <a href="https://wa.me/51913642644?text=Hola%20Golden%20Monk,%20quiero%20hacer%20un%20pedido%20de%20Keke%20de%20Cacao" class="whatsapp-btn">
         Solicitar Pedido por WhatsApp
     </a>
 
     <div class="footer-text">
-        Contiene alulosa, endulzante natural con índice glucémico cero.<br>
+        Contiene alulosa, endulzante natural con índice glucémico casi cero.<br>
         Elaboración artesanal en lotes pequeños.<br>
         <strong>Lima, Perú.</strong>
     </div>
